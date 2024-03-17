@@ -1,0 +1,127 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://wallpapers.com/images/featured/sky-mvehfqz6w2ges2dj.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 700px;
+    margin: 40px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+	text-align: center;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.temp-city {
+    margin: 10px 0;
+    padding: 5px 0;
+}
+
+.weather-image-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.weather-image-container img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+.weather-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align horizontally */
+    align-items: center; /* Center align vertically */
+}
+
+.weather-info p {
+    margin: 8px 0;
+    padding: 8px 0;
+    flex-basis: 48%;
+    text-align: center; /* Center-align text */
+}
+
+
+.weather-info i {
+    margin-right: 10px;
+}
+
+form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: calc(100% - 120px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+	margin: 16px 12px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    padding: 16px 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.footer-container {
+	background-color: rgba(0, 0, 0, 0.7); /* Darken the container background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .weather-info p {
+        flex-basis: 100%;
+    }
+
+    input[type="text"] {
+        width: calc(100% - 20px);
+    }
+}

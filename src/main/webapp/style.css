@@ -1,0 +1,65 @@
+
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://cdnb.artstation.com/p/assets/images/images/052/231/609/large/pranav-shaj-parallax-bg-ai-02.jpg?1659292909');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Set the body height to full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Darken the container background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 12px 16px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.footer-container {
+	background-color: rgba(0, 0, 0, 0.7); /* Darken the container background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
